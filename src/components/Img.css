@@ -1,0 +1,15 @@
+.img-container {
+    position: relative;
+}
+
+.card-img-top {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.status {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
