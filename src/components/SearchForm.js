@@ -1,7 +1,6 @@
 import React, { Component } from  'react';
 import { makeDebounced } from '../utlis/debounce';
 
-
 class SearchForm extends Component {
 
     constructor(props) {

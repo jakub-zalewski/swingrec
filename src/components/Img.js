@@ -48,10 +48,8 @@ class Img extends Component {
                 />
                 <span className="status">{imageStatusText}</span>
             </div>
-
-        )
+        );
     }
-
 }
 
 export default Img;

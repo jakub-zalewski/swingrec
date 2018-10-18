@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 const timeToRedirect = 2000;
 
 class RouteNotMatched extends Component {
+
     constructor(props) {
         super(props);
 
@@ -21,7 +22,6 @@ class RouteNotMatched extends Component {
             })
         }, timeToRedirect);
     }
-
 
     render() {
         const redirect = this.state.redirect ? <Redirect to="/"/> : '';

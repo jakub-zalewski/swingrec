@@ -5,7 +5,6 @@ import RouteNotMatched from "./RouteNotMatched";
 import Nav from "./Nav";
 import DogsMap from "./DogsMap";
 
-
 class App extends Component {
   render() {
       return (

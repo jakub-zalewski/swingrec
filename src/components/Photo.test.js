@@ -26,7 +26,6 @@ describe('Photo', () => {
             </MemoryRouter>
         );
 
-
         //then
         const testInstance = testRenderer.root;
         const images = testInstance.findAll((el) => el.type === 'img');

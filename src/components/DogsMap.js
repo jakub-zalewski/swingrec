@@ -66,8 +66,6 @@ class DogsMap extends Component {
                 {status}
             </div>
         );
-
-
     }
 }
 
